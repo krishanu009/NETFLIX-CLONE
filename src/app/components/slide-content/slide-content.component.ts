@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SlideContentComponent implements OnInit {
 
   constructor() { }
-
+  contentTitle: any ="Batman"
   ngOnInit(): void {
   }
 

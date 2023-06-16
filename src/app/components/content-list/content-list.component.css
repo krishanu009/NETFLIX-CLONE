@@ -1,0 +1,13 @@
+.main-title
+{
+    font-family: Verdana, sans-serif;
+    color:white;
+    font-size: 20px;
+}
+.items
+{
+    width: fit-content;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
