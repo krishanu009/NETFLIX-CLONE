@@ -1,6 +1,91 @@
 .main
 {
+    
+}
+.main-img-text
+{
+    position: relative;
+    color: white;
+    font-weight:100;
+    bottom: 373px;
+    font-size: medium;
+    font-family: Verdana, sans-serif;
+    margin-left: 136px;
+    width: 500px;
+    text-shadow: 2px 2px #080808;
+
+
+}
+.main-img-text-title
+{
+    
+    color: white;
+    font-weight:bold;
+    
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+    
+    
+    text-shadow: 2px 2px #080808;
+
+
+}
+.button-panel
+{
+    position: relative;
+    bottom: 353px;
+    left: 130px;
+}
+svg
+{
+    
+    display: inline-block;
+   vertical-align: middle;
+}
+.button-1 {
+    background-color: #d4d4d4;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 50px;
+    width: 133px;
+    font-weight: bold;
+  }
+  .button-2 {
+    background-color: #5b5a5a;
+    border: none;
+    color: rgb(211, 208, 208);
+    padding: 15px 32px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 50px;
+    width: 179px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+.main-img
+{
+    filter: brightness(50%);
+    width: 100%;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, transparent);
+}
+.content-list
+{
     padding-left: 90px;
     padding-right: 90px;
-    margin-top: 300px;
+    position: relative;
+    top: -361px;
+    padding-bottom: 300px;
 }

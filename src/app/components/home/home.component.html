@@ -1,3 +1,22 @@
 <div class="main">
-  <app-content-list *ngFor="let i of content" [mainTitle]="i.mainTitle" [items]="i.item"></app-content-list> 
+  <div class="main-image">
+    <img class="main-img" src="assets/strangerthings.jpg">
+  </div>
+  <div class="main-img-text">
+    <p class="main-img-text-title">New Season</p>
+    When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.
+  </div>
+  <div class="button-panel">
+    <button class="button-1"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+    </svg>  <span>Play</span></button>
+    <button class="button-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>0
+      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+    </svg>  <span style="margin-left: 5px;">More info</span></button>
+  </div>
+  <div class="content-list">
+    <app-content-list *ngFor="let i of content" [mainTitle]="i.mainTitle" [items]="i.item"></app-content-list> 
+  </div>
+  
 </div>

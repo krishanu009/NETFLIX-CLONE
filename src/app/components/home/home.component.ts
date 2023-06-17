@@ -23,8 +23,25 @@ export class HomeComponent implements OnInit {
    {title:"Detective Conan",src:"assets/img5-4.jpg"},
    {title:"Kochikame",src:"assets/img5-5.webp"},
    {title:"Shinchan",src:"assets/img5-6.webp"}]},
-   {mainTitle:"Popular on Netflix",item:[{title:"Batman",src:"assets/img1-3.jpg"}]},
-   {mainTitle:"New Releases",item:[{title:"Batman",src:"assets/img1-4.jpg"}]}];
+   {mainTitle:"Comedy",item:[{title:"Friends",src:"assets/img4-2.webp"},
+   {title:"Kathal",src:"assets/img4-3.jpg"},
+   {title:"Two & a Half Men",src:"assets/img4-1.jpg"},
+   {title:"Big Bang Theory",src:"assets/img4-4.jpg"},
+   {title:"How I Met Your Mother",src:"assets/him.webp"},
+   {title:"Rick & Mortey",src:"assets/rm.jpg"}]},
+   {mainTitle:"Popular on Netflix",item:[{title:"Money Heist",src:"assets/img3-1.jpg"},
+   {title:"Queens Gambit",src:"assets/img3-2.jpg"},
+   {title:"You",src:"assets/img3-3.jpg"},
+   {title:"Dark",src:"assets/img3-4.webp"},
+   {title:"Wednesday",src:"assets/img3-5.png"},
+   {title:"Lucifer",src:"assets/img3-6.webp"}]},
+   {mainTitle:"Critically Aclaimed Tv Shows",item:[{title:"The Haunting of Hill House",src:"assets/img2-1.jpg"},
+   {title:"Narcos",src:"assets/img2-2.jpg"},
+   {title:"The Witcher",src:"assets/img2-3.jpg"},
+   {title:"Strangers things",src:"assets/img2-4.jpg"},
+   {title:"Riverdale",src:"assets/img2-5.webp"},
+   {title:"Sandman",src:"assets/img2-6.webp"}]}
+   ];
   ngOnInit(): void {
   }
 
