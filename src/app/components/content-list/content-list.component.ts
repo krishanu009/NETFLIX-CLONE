@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-content-list',
@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class ContentListComponent implements OnInit {
-  mainTitle="Trending Now";
-  items:any[] =[1,2,3,4,5];
+  @Input() mainTitle:any;
+  
+  @Input() items:any[] =[];
   constructor() { }
 
   ngOnInit(): void {

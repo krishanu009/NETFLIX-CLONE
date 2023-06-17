@@ -51,6 +51,7 @@ img{
     font-weight: bold;
     margin-top: 10px;
     margin-left: 10px;
+    margin-right: 10px;
     font-family: Verdana, sans-serif;
   }
   .content .content-card:hover {

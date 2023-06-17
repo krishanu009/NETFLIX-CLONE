@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-slide-content',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class SlideContentComponent implements OnInit {
 
   constructor() { }
+
+  @Input() content:any;
   contentTitle: any ="Batman"
   ngOnInit(): void {
   }
