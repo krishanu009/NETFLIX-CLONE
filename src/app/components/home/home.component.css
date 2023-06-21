@@ -35,6 +35,7 @@
     position: relative;
     bottom: 353px;
     left: 130px;
+    width: fit-content;
 }
 svg
 {
@@ -83,9 +84,10 @@ svg
 }
 .content-list
 {
-    padding-left: 90px;
+    padding-left: 126px;
     padding-right: 90px;
     position: relative;
     top: -361px;
     padding-bottom: 300px;
+    
 }
