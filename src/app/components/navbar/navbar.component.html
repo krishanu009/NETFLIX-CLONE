@@ -4,22 +4,44 @@
     </div>
     <div class="item-div">
         <div class="item">
-           <a>Home</a> 
+           <a class="a-nav">Home</a> 
         </div>
         <div class="item">
-            <a>TV Shows</a>
+            <a class="a-nav">TV Shows</a>
         </div>
         <div class="item">
-            <a>Movies</a>
+            <a class="a-nav">Movies</a>
         </div>
         <div class="item">
-            <a>New & Popular</a>
+            <a class="a-nav">New & Popular</a>
         </div>
         <div class="item">
-            <a>My List</a>
+            <a class="a-nav">My List</a>
         </div>
         <div class="item">
-           <a href=>Browse By Language</a> 
+           <a class="a-nav" href="/">Browse By Language</a> 
+        </div>
+    </div>
+    <div class="options-div">
+        <div class="search-div">
+            <div class="search-icon">
+                <svg (click)="openSearch()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+            </div>
+            <div class="search-input-div search-input" >
+                <input class="input" [ngClass]="{'search-input-toggle': openSearchBar}"  type="text" placeholder="Titles, people, genres">
+            </div>
+            
+        </div>
+        <div class="children">
+
+        </div>
+        <div class="notification">
+
+        </div>
+        <div class="profile">
+            
         </div>
     </div>
 </div>
