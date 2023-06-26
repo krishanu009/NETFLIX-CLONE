@@ -33,7 +33,7 @@
 .item-div
 {
     
-    display: inline;
+    display: inline-block;
     margin-top: 15px;
     height: 71px;
     /* flex: 0 0 50%; */
@@ -76,6 +76,7 @@
     height: 71px;
     /* width: 50%; */
     flex: 0 0 50%;
+    overflow: hidden;
 
     
 
@@ -88,6 +89,7 @@
     margin-top: 15px;
     height: 71px;
     width: 70%;
+    display: inline-block;
     
 }
 
@@ -96,9 +98,10 @@
     z-index: 3;
     position: relative;
     margin-left: 500px;
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 2px;
+    width: fit-content;
     transition: 0.3s ease all;
+    cursor: pointer;
 }
 .search-icon-toggle
 {
@@ -149,4 +152,58 @@
     margin-top: -31px;
     top: 53px;
     right: 251px;
+}
+
+.children
+{
+    display: inline-block;
+    
+    margin-left: 13px;
+}
+.notification
+{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.profile
+{
+    
+    display: inline-block;
+    margin-left: 30px;
+    
+
+}
+.arrow
+{
+    display: inline-block;
+    margin-left: 10px;
+    transition: 0.3s ease all; 
+}
+.arrow-clicked
+{
+    /* transform-origin:center;  */
+    transform: perspective(800px) rotatez(180deg);
+}
+.menu
+{
+    background-color: #000000d7;
+    width: 200px;
+    height: 292px;
+    position: absolute;
+    z-index: 4;
+    right: 42px;
+    top: 74px; 
+}
+.menu-items
+{
+   margin: 20px;
+}
+.a-menu
+{
+    cursor: pointer;
+    color: #fff8f8;
+    margin-left: 5px;
+    font-size: 20px;
+
 }

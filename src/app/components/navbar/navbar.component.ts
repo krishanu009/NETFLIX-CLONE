@@ -11,6 +11,8 @@ export class NavbarComponent implements OnInit {
   
   isScrolled = false;
   openSearchBar =false;
+  profileClick =  false;
+  menuHover = false;
   ngOnInit(): void {
   }
   @HostListener('window:scroll', [])
@@ -21,6 +23,22 @@ export class NavbarComponent implements OnInit {
   openSearch()
   {
     this.openSearchBar = !this.openSearchBar;
+  }
+  profileClickedenter()
+  {
+   this.profileClick = !this.profileClick;
+   this.menuHover = !this.menuHover;
+   
+  }
+  profileClickedleave()
+  {
+   this.profileClick = !this.profileClick;
+ 
+   
+  }
+  menuHoverd()
+  {
+    this.menuHover = !this.menuHover;
   }
 
 }
