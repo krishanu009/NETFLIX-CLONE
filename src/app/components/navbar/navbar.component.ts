@@ -26,19 +26,27 @@ export class NavbarComponent implements OnInit {
   }
   profileClickedenter()
   {
-   this.profileClick = !this.profileClick;
-   this.menuHover = !this.menuHover;
+   this.profileClick = true;
+   
    
   }
   profileClickedleave()
   {
-   this.profileClick = !this.profileClick;
+   this.profileClick = false;
+   this.menuHover = false;
  
    
   }
-  menuHoverd()
+  menuHoverdenter()
   {
-    this.menuHover = !this.menuHover;
+    this.menuHover = true;
+  }
+  menuHoverdleave()
+  {
+    this.menuHover = false;
+    this.profileClick = false;
+    console.log("leave");
+    
   }
 
 }
