@@ -1,6 +1,6 @@
 .main
 {
-    
+   /* height: 100%;  */
 }
 .main-img-text
 {
@@ -87,7 +87,8 @@ svg
     padding-left: 126px;
     padding-right: 90px;
     position: relative;
-    top: -361px;
-    padding-bottom: 300px;
+    /* top: -361px; */
+    /* padding-bottom: 300px; */
+    margin-top: -361px;
     
 }
