@@ -187,7 +187,7 @@
 }
 .menu-div
 {
-    
+    /* background-color: #ffffffd7; */
     width: 200px;
     height: 337px;
     position: absolute;
@@ -199,10 +199,20 @@
 {
     background-color: #000000d7;
     width: 200px;
-    height: 292px;
+    height: 233px;
     position: absolute;
     z-index: 4;
     top: 49px;
+}
+.sign-out
+{
+    background-color: #000000d7;
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    z-index: 4;
+    top: 283px;
+
 }
 
 .menu-items
